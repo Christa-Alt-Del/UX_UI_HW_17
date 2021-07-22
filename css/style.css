@@ -32,6 +32,8 @@ header {
 .name {
     display:flex;
     justify-content: center;
+    margin-bottom: 0px;
+    margin-top: 20px;
 }
 .navBar {
     display:flex;
@@ -44,6 +46,8 @@ header {
     margin-right: 25px;
     margin-left: 25px;
     cursor: pointer;
+    margin-top:0px;
+    margin-bottom: 20px;
 }
 
 /* Hero Grid CSS */
