@@ -1,5 +1,7 @@
 /* Typography CSS */
 body {
+    margin:0px;
+    padding: 0px;
     font-family: 'Nunito', sans-serif;
     background: linear-gradient(-45deg, #FF6EB1, #A177D6, #FF6EB1)
     }
@@ -28,12 +30,13 @@ body {
 /* Header CSS */
 header {
     border-bottom: 8px solid white;
+    margin-top: 0;
 }
 .name {
     display:flex;
     justify-content: center;
     margin-bottom: 0px;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 .navBar {
     display:flex;
@@ -58,7 +61,7 @@ header {
 }
 .aboutMe {
     width: 590px;
-    height: 530;
+    height: 500;
     margin-top: 50px;
     margin-bottom: 50px;
     border-radius: 25px;
@@ -72,13 +75,15 @@ header {
 }
 .mySkills {
     padding: 20px;
+    margin-bottom: 0;
 }
 .mePic {
     padding-left: 475px;
+    margin-top: 0;
 }
 .caseStudies {
     width: 590px;
-    height: 530;
+    height: 500;
     margin-top: 50px;
     margin-bottom: 50px;
     border-radius: 25px;
@@ -106,7 +111,7 @@ footer {
 .emailWhite {
     padding-left: 25px;
     padding-right: 25px;
-    padding-top: 50px;
+    padding-top: 20px;
     margin-right: 25px;
     margin-left: 25px;
     cursor: pointer;
@@ -114,8 +119,14 @@ footer {
 .liWhite {
     padding-left: 25px;
     padding-right: 25px;
-    padding-top: 50px;
+    padding-top: 20px;
     margin-right: 25px;
     margin-left: 25px;
     cursor: pointer;
+}
+.copyright {
+    margin-top: 10px;
+    margin-bottom: 0;
+    display:flex;
+    justify-content: center;
 }
