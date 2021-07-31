@@ -32,6 +32,7 @@ body {
     color: black;
 }
 a:link {
+    color:white;
     text-decoration: none;
 }
 a:visited {
